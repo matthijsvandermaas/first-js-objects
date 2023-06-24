@@ -8,12 +8,17 @@ const cookieIngredients = ["Eieren", "Bloem", "Bakpoeder", "Vanille extract"];
 const lastItem = cookieIngredients.pop();
 console.log(lastItem);
 console.log(cookieIngredients);
-
+console.log(cookieIngredients.pop());
+console.log(cookieIngredients);
 /* Opdracht 1: */
 // Voeg een nieuw item toe aan onderstaande array en log de gehele array in de terminal om te kijken is het gelukt is
 // ---- Verwachte uitkomst: [ 'Hawai', 'Margherita', 'Salami' ]
 
 const pizzas = ["Hawai", "Margherita"];
+console.log(pizzas)
+pizzas.push("Salami")
+
+console.log(pizzas)
 
 
 
